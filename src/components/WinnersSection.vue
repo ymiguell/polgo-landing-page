@@ -36,7 +36,7 @@ export default {
   async mounted() {
     try {
       const response = await axios.get('https://winners-api-aw6g.onrender.com/api/winners');
-      this.winners = response.data;   //https://winners-api.onrender.com/api/winners
+      this.winners = response.data;
     } catch (err) {
       this.error = "Erro ao buscar ganhadores.";
       console.error(err);
