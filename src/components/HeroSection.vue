@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white text-blue-600 h-screen flex flex-col justify-center items-center pt-16"> <!-- Adicionado padding-top -->
+  <section class="bg-white text-blue-600 h-screen flex flex-col justify-center items-center pt-16"> 
     <div class="flex flex-wrap justify-center space-x-4 mb-4">
       <button
         @click="setVersion('desktop')"
